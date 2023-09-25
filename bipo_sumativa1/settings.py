@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'bipo_app1',
+    'bipo_app2',
 ]
 
 MIDDLEWARE = [
