@@ -16,7 +16,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from bipo_app1.views import vista1
+from bipo_app1.views import vista2
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', vista1),
+    path('v1a1/', vista2),
 ]
